@@ -7,6 +7,7 @@ const Card = ({ children, newStyles }) => {
   );
 };
 
+
 export default Card;
 
 const styles = StyleSheet.create({
@@ -21,5 +22,6 @@ const styles = StyleSheet.create({
     elevation: 5,
     borderRadius: 10,
     backgroundColor: "white",
+
   },
 });
